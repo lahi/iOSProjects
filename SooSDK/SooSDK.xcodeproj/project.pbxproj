@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88046D41198B96AE00B63AC4 /* UIViewController+MGSwipeTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E799AD198B949B007670FC /* UIViewController+MGSwipeTabBarController.h */; };
+		88046D42198B96AE00B63AC4 /* MGSwipeTabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E799AF198B949B007670FC /* MGSwipeTabBar.h */; };
+		88046D43198B96AE00B63AC4 /* MGSwipeTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E799B1198B949B007670FC /* MGSwipeTabBarController.h */; };
+		88046D44198B96AE00B63AC4 /* MGSwipeTabBarControllerHeaders.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E799B3198B949B007670FC /* MGSwipeTabBarControllerHeaders.h */; };
+		88E79898198B7C70007670FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E79897198B7C70007670FC /* Foundation.framework */; };
+		88E7989D198B7C70007670FC /* SooSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E7989C198B7C70007670FC /* SooSDK.h */; };
+		88E7989F198B7C70007670FC /* SooSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7989E198B7C70007670FC /* SooSDK.m */; };
+		88E798A6198B7C70007670FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E798A5198B7C70007670FC /* XCTest.framework */; };
+		88E798A7198B7C70007670FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E79897198B7C70007670FC /* Foundation.framework */; };
+		88E798A9198B7C70007670FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E798A8198B7C70007670FC /* UIKit.framework */; };
+		88E798AC198B7C70007670FC /* libSooSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E79894198B7C70007670FC /* libSooSDK.a */; };
+		88E798B2198B7C70007670FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E798B0198B7C70007670FC /* InfoPlist.strings */; };
+		88E798B4198B7C70007670FC /* SooSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E798B3198B7C70007670FC /* SooSDKTests.m */; };
+		88E799B4198B949B007670FC /* UIViewController+MGSwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E799AE198B949B007670FC /* UIViewController+MGSwipeTabBarController.m */; };
+		88E799B5198B949B007670FC /* MGSwipeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E799B0198B949B007670FC /* MGSwipeTabBar.m */; };
+		88E799B6198B949B007670FC /* MGSwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E799B2198B949B007670FC /* MGSwipeTabBarController.m */; };
+		C725AFAB6EDB481AB7AAB3DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A8C1F783064D18A1DE91F3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88E798AA198B7C70007670FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88E7988C198B7C70007670FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E79893198B7C70007670FC;
+			remoteInfo = SooSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88E79892198B7C70007670FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				88046D41198B96AE00B63AC4 /* UIViewController+MGSwipeTabBarController.h in CopyFiles */,
+				88046D42198B96AE00B63AC4 /* MGSwipeTabBar.h in CopyFiles */,
+				88046D43198B96AE00B63AC4 /* MGSwipeTabBarController.h in CopyFiles */,
+				88046D44198B96AE00B63AC4 /* MGSwipeTabBarControllerHeaders.h in CopyFiles */,
+				88E7989D198B7C70007670FC /* SooSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88E79894198B7C70007670FC /* libSooSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSooSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E79897198B7C70007670FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88E7989B198B7C70007670FC /* SooSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SooSDK-Prefix.pch"; sourceTree = "<group>"; };
+		88E7989C198B7C70007670FC /* SooSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SooSDK.h; sourceTree = "<group>"; };
+		88E7989E198B7C70007670FC /* SooSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SooSDK.m; sourceTree = "<group>"; };
+		88E798A4198B7C70007670FC /* SooSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SooSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E798A5198B7C70007670FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88E798A8198B7C70007670FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		88E798AF198B7C70007670FC /* SooSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SooSDKTests-Info.plist"; sourceTree = "<group>"; };
+		88E798B1198B7C70007670FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E798B3198B7C70007670FC /* SooSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SooSDKTests.m; sourceTree = "<group>"; };
+		88E799AD198B949B007670FC /* UIViewController+MGSwipeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MGSwipeTabBarController.h"; sourceTree = "<group>"; };
+		88E799AE198B949B007670FC /* UIViewController+MGSwipeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MGSwipeTabBarController.m"; sourceTree = "<group>"; };
+		88E799AF198B949B007670FC /* MGSwipeTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTabBar.h; sourceTree = "<group>"; };
+		88E799B0198B949B007670FC /* MGSwipeTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTabBar.m; sourceTree = "<group>"; };
+		88E799B1198B949B007670FC /* MGSwipeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTabBarController.h; sourceTree = "<group>"; };
+		88E799B2198B949B007670FC /* MGSwipeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTabBarController.m; sourceTree = "<group>"; };
+		88E799B3198B949B007670FC /* MGSwipeTabBarControllerHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTabBarControllerHeaders.h; sourceTree = "<group>"; };
+		9DF7F048C20C41C8BE79600C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C7A8C1F783064D18A1DE91F3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88E79891198B7C70007670FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E79898198B7C70007670FC /* Foundation.framework in Frameworks */,
+				C725AFAB6EDB481AB7AAB3DB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E798A1198B7C70007670FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E798AC198B7C70007670FC /* libSooSDK.a in Frameworks */,
+				88E798A6198B7C70007670FC /* XCTest.framework in Frameworks */,
+				88E798A9198B7C70007670FC /* UIKit.framework in Frameworks */,
+				88E798A7198B7C70007670FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E7988B198B7C70007670FC = {
+			isa = PBXGroup;
+			children = (
+				88E79899198B7C70007670FC /* SooSDK */,
+				88E798AD198B7C70007670FC /* SooSDKTests */,
+				88E79896198B7C70007670FC /* Frameworks */,
+				88E79895198B7C70007670FC /* Products */,
+				9DF7F048C20C41C8BE79600C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		88E79895198B7C70007670FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88E79894198B7C70007670FC /* libSooSDK.a */,
+				88E798A4198B7C70007670FC /* SooSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E79896198B7C70007670FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E79897198B7C70007670FC /* Foundation.framework */,
+				88E798A5198B7C70007670FC /* XCTest.framework */,
+				88E798A8198B7C70007670FC /* UIKit.framework */,
+				C7A8C1F783064D18A1DE91F3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E79899198B7C70007670FC /* SooSDK */ = {
+			isa = PBXGroup;
+			children = (
+				88E798BD198B7E05007670FC /* Classes */,
+				88E7989C198B7C70007670FC /* SooSDK.h */,
+				88E7989E198B7C70007670FC /* SooSDK.m */,
+				88E7989A198B7C70007670FC /* Supporting Files */,
+			);
+			path = SooSDK;
+			sourceTree = "<group>";
+		};
+		88E7989A198B7C70007670FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E7989B198B7C70007670FC /* SooSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88E798AD198B7C70007670FC /* SooSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				88E798B3198B7C70007670FC /* SooSDKTests.m */,
+				88E798AE198B7C70007670FC /* Supporting Files */,
+			);
+			path = SooSDKTests;
+			sourceTree = "<group>";
+		};
+		88E798AE198B7C70007670FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E798AF198B7C70007670FC /* SooSDKTests-Info.plist */,
+				88E798B0198B7C70007670FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88E798BD198B7E05007670FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88E798BF198B7E15007670FC /* Views */,
+				88E798BE198B7E0C007670FC /* Util */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		88E798BE198B7E0C007670FC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		88E798BF198B7E15007670FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88E799AB198B949B007670FC /* MGSwipeTabBarController */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		88E799AB198B949B007670FC /* MGSwipeTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				88E799AC198B949B007670FC /* Categories */,
+				88E799AF198B949B007670FC /* MGSwipeTabBar.h */,
+				88E799B0198B949B007670FC /* MGSwipeTabBar.m */,
+				88E799B1198B949B007670FC /* MGSwipeTabBarController.h */,
+				88E799B2198B949B007670FC /* MGSwipeTabBarController.m */,
+				88E799B3198B949B007670FC /* MGSwipeTabBarControllerHeaders.h */,
+			);
+			name = MGSwipeTabBarController;
+			path = Classes/Views/MGSwipeTabBarController;
+			sourceTree = "<group>";
+		};
+		88E799AC198B949B007670FC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				88E799AD198B949B007670FC /* UIViewController+MGSwipeTabBarController.h */,
+				88E799AE198B949B007670FC /* UIViewController+MGSwipeTabBarController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E79893198B7C70007670FC /* SooSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E798B7198B7C70007670FC /* Build configuration list for PBXNativeTarget "SooSDK" */;
+			buildPhases = (
+				0E5AC405054E430E86E00884 /* Check Pods Manifest.lock */,
+				88E79890198B7C70007670FC /* Sources */,
+				88E79891198B7C70007670FC /* Frameworks */,
+				88E79892198B7C70007670FC /* CopyFiles */,
+				22786377161F4A428B4572B3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SooSDK;
+			productName = SooSDK;
+			productReference = 88E79894198B7C70007670FC /* libSooSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88E798A3198B7C70007670FC /* SooSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E798BA198B7C70007670FC /* Build configuration list for PBXNativeTarget "SooSDKTests" */;
+			buildPhases = (
+				88E798A0198B7C70007670FC /* Sources */,
+				88E798A1198B7C70007670FC /* Frameworks */,
+				88E798A2198B7C70007670FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E798AB198B7C70007670FC /* PBXTargetDependency */,
+			);
+			name = SooSDKTests;
+			productName = SooSDKTests;
+			productReference = 88E798A4198B7C70007670FC /* SooSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88E7988C198B7C70007670FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 88E7988F198B7C70007670FC /* Build configuration list for PBXProject "SooSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88E7988B198B7C70007670FC;
+			productRefGroup = 88E79895198B7C70007670FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E79893198B7C70007670FC /* SooSDK */,
+				88E798A3198B7C70007670FC /* SooSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E798A2198B7C70007670FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E798B2198B7C70007670FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5AC405054E430E86E00884 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22786377161F4A428B4572B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88E79890198B7C70007670FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E799B6198B949B007670FC /* MGSwipeTabBarController.m in Sources */,
+				88E7989F198B7C70007670FC /* SooSDK.m in Sources */,
+				88E799B5198B949B007670FC /* MGSwipeTabBar.m in Sources */,
+				88E799B4198B949B007670FC /* UIViewController+MGSwipeTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E798A0198B7C70007670FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E798B4198B7C70007670FC /* SooSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88E798AB198B7C70007670FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88E79893198B7C70007670FC /* SooSDK */;
+			targetProxy = 88E798AA198B7C70007670FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88E798B0198B7C70007670FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88E798B1198B7C70007670FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88E798B5198B7C70007670FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88E798B6198B7C70007670FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E798B8198B7C70007670FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF7F048C20C41C8BE79600C /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/SooSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SooSDK/SooSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
+			};
+			name = Debug;
+		};
+		88E798B9198B7C70007670FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF7F048C20C41C8BE79600C /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/SooSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SooSDK/SooSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
+			};
+			name = Release;
+		};
+		88E798BB198B7C70007670FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SooSDK/SooSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SooSDKTests/SooSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88E798BC198B7C70007670FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SooSDK/SooSDK-Prefix.pch";
+				INFOPLIST_FILE = "SooSDKTests/SooSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88E7988F198B7C70007670FC /* Build configuration list for PBXProject "SooSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E798B5198B7C70007670FC /* Debug */,
+				88E798B6198B7C70007670FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E798B7198B7C70007670FC /* Build configuration list for PBXNativeTarget "SooSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E798B8198B7C70007670FC /* Debug */,
+				88E798B9198B7C70007670FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E798BA198B7C70007670FC /* Build configuration list for PBXNativeTarget "SooSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E798BB198B7C70007670FC /* Debug */,
+				88E798BC198B7C70007670FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88E7988C198B7C70007670FC /* Project object */;
+}

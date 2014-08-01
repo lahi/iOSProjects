@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8710BCDD-7EF6-41A6-97B0-C8C62BE39952</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSProjects</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0192F278-CA77-43D1-AA2E-F9A649247ECB</key>
+		<string>https://github.com/lahi/iOSProjects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSProjects.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0192F278-CA77-43D1-AA2E-F9A649247ECB</key>
+		<string>..</string>
+		<key>1D3EB450-EAB2-4EF3-BC4A-23D812604BA7</key>
+		<string>../RestaurantRecommand</string>
+		<key>BC31A2EC-347F-44CB-9334-FB49B0F13305</key>
+		<string>../SooSDK</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lahi/iOSProjects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0192F278-CA77-43D1-AA2E-F9A649247ECB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0192F278-CA77-43D1-AA2E-F9A649247ECB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSProject</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D3EB450-EAB2-4EF3-BC4A-23D812604BA7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RestaurantRecommand</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC31A2EC-347F-44CB-9334-FB49B0F13305</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SooSDK</string>
+		</dict>
+	</array>
+</dict>
+</plist>
